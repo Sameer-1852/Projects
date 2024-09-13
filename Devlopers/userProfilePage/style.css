@@ -1,4 +1,3 @@
-/* Basic reset and mobile-first design */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,6 @@ body {
   color: #333;
 }
 
-/* Profile container */
 .profile-container {
   max-width: 500px;
   margin: 40px auto;
@@ -27,7 +25,6 @@ body {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-/* Profile header section */
 .profile-header {
   display: flex;
   align-items: center;
@@ -59,7 +56,6 @@ body {
   line-height: 1.6;
 }
 
-/* Contact info */
 .contact-info {
   margin-top: 20px;
   background-color: #ecf0f1;
@@ -78,7 +74,6 @@ body {
   color: #2980b9;
 }
 
-/* Links Section */
 .links-section {
   margin-top: 30px;
   text-align: center;
@@ -113,7 +108,6 @@ body {
   transform: scale(0.98);
 }
 
-/* Desktop styling (media query) */
 @media (min-width: 768px) {
   .profile-container {
       max-width: 800px;
